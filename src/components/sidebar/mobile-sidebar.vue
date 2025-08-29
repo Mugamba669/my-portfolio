@@ -16,12 +16,12 @@
 
                                         <div class="flex justify-center space-x-3">
                                             <!-- facebook icon and link -->
-                                            <a href="https://www.facebook.com/" target="_blank"
+                                            <!-- <a href="https://www.facebook.com/" target="_blank"
                                                 rel="noopener noreferrer">
                                                 <span class="socialbtn text-[#1773EA]">
                                                     <i class="fa-brands fa-facebook-f"></i>
                                                 </span>
-                                            </a>
+                                            </a> -->
                                             <!-- twitter icon and link -->
                                             <a href="https://twitter.com/BrunoMugamba" target="_blank" rel="noopener noreferrer">
                                                 <span class="socialbtn text-[#1C9CEA]">
@@ -35,7 +35,7 @@
                                 </span>
                             </a>
                                             <!-- linkedin icon and link -->
-                                            <a href="https://www.linkedin.com/" target="_blank"
+                                            <a href="https://www.linkedin.com/in/mugamba-bruno-20629520b/" target="_blank"
                                                 rel="noopener noreferrer">
                                                 <span class="socialbtn text-[#0072b1]">
                                                     <i class="fa-brands fa-linkedin-in"></i>

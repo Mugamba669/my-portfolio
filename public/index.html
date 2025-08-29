@@ -1,26 +1,150 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css" integrity="sha512-RvQxwf+3zJuNwl4e0sZjQeX7kUa3o82bDETpgVCH2RiwYSZVDdFJ7N/woNigN/ldyOOoKw8584jM4plQdt8bhA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <!-- slick -->
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    <!-- built files will be auto injected -->
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- SEO Optimization -->
+  <meta name="description"
+    content="Bruno Mugamba - Top Software Developer in Uganda & Africa. Expert in web development, mobile apps, and custom software solutions. Vue.js, React, Node.js specialist serving Uganda, Kenya, Tanzania, Rwanda.">
+  <meta name="keywords"
+    content="best software developer Uganda, top software developer Africa, Bruno Mugamba, web developer Uganda, mobile app developer Uganda, Vue.js developer Uganda, React developer Uganda, software engineer Uganda, fullstack developer Uganda, Uganda software development, Africa software developer, Kampala developer, East Africa developer, custom software Uganda">
+  <meta name="author" content="Bruno Mugamba">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Bruno Mugamba - Best Software Developer in Uganda & Africa">
+  <meta property="og:description"
+    content="Leading software developer in Uganda and Africa. Specializing in web development, mobile apps, and enterprise solutions. Serving clients across Uganda, Kenya, Tanzania, and Rwanda.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bruno-mh.netlify.app/">
+  <meta property="og:image" content="https://bruno-mh.netlify.app/img/dp.2310e9b5.jpg">
+  <meta property="og:site_name" content="Bruno Mugamba - Software Developer">
+  <meta property="og:locale" content="en_UG">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bruno Mugamba - Best Software Developer in Uganda & Africa">
+  <meta name="twitter:description"
+    content="Leading software developer in Uganda and Africa. Expert in Vue.js, React, Node.js, and mobile development.">
+  <meta name="twitter:image" content="https://bruno-mh.netlify.app/img/dp.2310e9b5.jpg">
+  <meta name="geo.region" content="UG">
+  <meta name="geo.placename" content="Kampala, Uganda">
+  <meta name="geo.position" content="0.3476;32.5825">
+  <meta name="ICBM" content="0.3476, 32.5825">
+  <link rel="icon" href="<%= BASE_URL %>bruno.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css"
+    integrity="sha512-RvQxwf+3zJuNwl4e0sZjQeX7kUa3o82bDETpgVCH2RiwYSZVDdFJ7N/woNigN/ldyOOoKw8584jM4plQdt8bhA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Roboto+Slab:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <!-- slick -->
+  <title>Bruno Mugamba - Best Software Developer in Uganda & Africa | Web & Mobile Apps</title>
+  <link rel="canonical" href="https://bruno-mh.netlify.app/">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Bruno Mugamba",
+    "jobTitle": "Software Developer",
+    "description": "Leading software developer in Uganda and Africa specializing in web development, mobile applications, and enterprise solutions.",
+    "url": "https://bruno-mh.netlify.app/",
+    "image": "https://bruno-mh.netlify.app/assets/bruno.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kampala",
+      "addressCountry": "Uganda",
+      "addressRegion": "Central Region"
+    },
+    "worksFor": {
+      "@type": "Organization",
+      "name": "COTE Limited",
+      "url": "https://coteug.com"
+    },
+    "knowsAbout": [
+      "Vue.js Development",
+      "React Development",
+      "Node.js Development",
+      "Mobile App Development",
+      "Web Development",
+      "Software Engineering",
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "Database Design",
+      "UI/UX Design",
+      "E-commerce Development",
+      "Enterprise Solutions"
+    ],
+    "areaServed": [
+      "Uganda",
+      "Kenya",
+      "Tanzania",
+      "Rwanda",
+      "Africa",
+      "East Africa"
+    ],
+    "sameAs": [
+      "https://github.com/Mugamba669",
+      "https://www.linkedin.com/in/mugamba-bruno-20629520b/"
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Bruno Mugamba Software Development Services",
+    "description": "Professional software development services in Uganda and Africa. Specializing in web applications, mobile apps, and custom software solutions.",
+    "provider": {
+      "@type": "Person",
+      "name": "Bruno Mugamba"
+    },
+    "areaServed": [
+      {
+        "@type": "Country",
+        "name": "Uganda"
+      },
+      {
+        "@type": "Country",
+        "name": "Kenya"
+      },
+      {
+        "@type": "Country",
+        "name": "Tanzania"
+      },
+      {
+        "@type": "Country",
+        "name": "Rwanda"
+      }
+    ],
+    "serviceType": [
+      "Web Development",
+      "Mobile App Development",
+      "Custom Software Development",
+      "E-commerce Development",
+      "Enterprise Solutions",
+      "UI/UX Design"
+    ],
+    "url": "https://bruno-mh.netlify.app/"
+  }
+  </script>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+        Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <!-- built files will be auto injected -->
+</body>
+
 </html>

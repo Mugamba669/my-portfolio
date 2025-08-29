@@ -72,7 +72,7 @@ export default {
   mounted() {
     document.querySelector(
       "title"
-    ).textContent = `${this.title} | Mugamba Bruno`;
+    ).textContent = `${this.title} | Bruno Mugamba - Best Software Developer in Uganda & Africa`;
   },
 };
 </script>

@@ -13,7 +13,7 @@
                                         </div>
                                         <div
                                             class="bg-[#fff4f4] dark:bg-transparent py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg dark:border-[#212425] dark:border-2">
-                                            <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2019 - present</span>
+                                            <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2019 - 2024</span>
                                             <h3 class="text-xl dark:text-white"> Bachelor of Science in Software Engineering</h3>
                                             <p class="dark:text-[#b7b7b7]"> Makerere University, Kampala,Uganda</p>
                                         </div>
@@ -39,15 +39,38 @@
                                             <i class="fa-solid text-6xl text-[#F95054] fa-briefcase"></i>
                                             <h4 class="text-5xl dark:text-white font-medium"> Experience </h4>
                                         </div>
+                                        <!-- malticard -->
+                                        <div
+                                            class="py-4 pl-5 pr-3 space-y-2 rounded-lg bg-[#056615] dark:bg-transparent dark:border-[#212425] dark:border-2">
+                                            <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]">13/04/2025 - present</span>
+                                            <h3 class="text-xl dark:text-white"> Mobile Software developer (Flutter & React) </h3>
+                                            <p class="dark:text-[#b7b7b7]"> Kutunza Mawazo LTD </p>
+                                        </div>
+                                        
+                                        <!-- baylor college -->
+                                          <div
+                                            class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg bg-[#eef5fa] dark:bg-transparent dark:border-[#212425] dark:border-2">
+                                            <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]">22/07/2024 - 22/01/2025</span>
+                                            <h3 class="text-xl dark:text-white"> Software developer <b>(Laravel) </b></h3>
+                                            <p class="dark:text-[#b7b7b7]">Baylor Foundation Uganda </p>
+                                        </div>
+                                        <!-- malticard -->
+                                        <div
+                                            class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg bg-[#e0ffe5] dark:bg-transparent dark:border-[#212425] dark:border-2">
+                                            <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]">13/02/2023 - 02/09/2023</span>
+                                            <h3 class="text-xl dark:text-white"> Mobile Software developer (Flutter) </h3>
+                                            <p class="dark:text-[#b7b7b7]"> Malticard (U) LTD </p>
+                                        </div>
+                                        <!-- elago -->
                                         <div
                                             class="py-4 pl-5 pr-3 space-y-2 mb-6 rounded-lg bg-[#eef5fa] dark:bg-transparent dark:border-[#212425] dark:border-2">
-                                            <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]">2017-2021</span>
-                                            <h3 class="text-xl dark:text-white"> Software developer </h3>
+                                            <span class="text-tiny text-gray-lite dark:text-[#b7b7b7]">05/05/2022 - 01/10/2022</span>
+                                            <h3 class="text-xl dark:text-white"> Software developer <b>(Laravel) </b></h3>
                                             <p class="dark:text-[#b7b7b7]"> Elago Technologies LTD </p>
                                         </div>
-                    
+                                        
+                                        <!-- experiment start -->
                                     </div>
-                                    <!-- experiment start -->
                                 </div>
                             </div>
                         </div>
@@ -127,12 +150,11 @@
 <script>
 import Layout from "@/Layout/layout.vue";
 export default {
-    name:"Resume",
-    components:{
-        Layout
-    }
-}
+  name: "Resume",
+  components: {
+    Layout,
+  },
+};
 </script>
 <style lang="">
-    
 </style>

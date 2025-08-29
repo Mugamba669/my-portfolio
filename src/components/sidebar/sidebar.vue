@@ -4,7 +4,7 @@
                 <div
                     class="w-full mb-6 lg:mb-0 mx-auto relative bg-white text-center dark:bg-[#111111] px-6 rounded-[20px] mt-[180px] md:mt-[220px] lg:mt-0">
                     <!-- profile image -->
-                    <img src="@/assets/dp.jpg"
+                    <img src="@/assets/bruno.png"
                         class="w-[240px] absolute left-[50%] transform -translate-x-[50%] h-[240px] drop-shadow-xl mx-auto rounded-[20px] -mt-[140px]"
                         alt="about" />
                     <div class="pt-[100px] pb-8">
@@ -14,11 +14,11 @@
                             Software Developer </h3>
                         <div class="flex justify-center space-x-3">
                             <!-- facebook icon and link -->
-                            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                            <!-- <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                                 <span class="socialbtn text-[#1773EA]">
                                     <i class="fa-brands fa-facebook-f"></i>
                                 </span>
-                            </a>
+                            </a> -->
                             <!-- twitter icon and link -->
                             <a href="https://twitter.com/BrunoMugamba" target="_blank" rel="noopener noreferrer">
                                 <span class="socialbtn text-[#1C9CEA]">
@@ -32,7 +32,7 @@
                                 </span>
                             </a>
                             <!-- linkedin icon and link -->
-                            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/mugamba-bruno-20629520b/" target="_blank" rel="noopener noreferrer">
                                 <span class="socialbtn text-[#0072b1]">
                                     <i class="fa-brands fa-linkedin-in"></i>
                                 </span>

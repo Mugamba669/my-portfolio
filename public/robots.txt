@@ -1,2 +1,14 @@
 User-agent: *
-Disallow:
+Allow: /
+
+# Sitemap location
+Sitemap: https://bruno-mh.netlify.app/sitemap.xml
+
+# Allow crawling of all important pages
+Allow: /about
+Allow: /portfolio
+Allow: /resume
+Allow: /contact
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
