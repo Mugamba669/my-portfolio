@@ -94,7 +94,7 @@ export default {
         {
           name: "Aisiom - E-learning Platform (East Africa)",
           type: "web",
-          link: "https://brunokabugo.com/",
+          link: "https://aisiom.com/",
           img: require("@/images/work_images/asomata.png"),
         },
         {
@@ -124,8 +124,8 @@ export default {
         {
           name: "Planar - Personal Finance Tracker (Android - Uganda)",
           type: "mobile",
-          link: "https://play.google.com/store/apps/details?id=com.app.tenant",
-          img: "https://play-lh.googleusercontent.com/zAcwmOJoSk3NB-l5p7VdbouopaNFM1cIqy8rfwWXYJ-nJl2pOhjXIVAHHAlBqA_-nkLr1F3hkWnc-yxvPxxaV6E=w5120-h2880-rw",
+          link: "https://play.google.com/store/apps/details?id=com.app.planar",
+          img: "https://play-lh.googleusercontent.com/mSKBRPUCan7NwKVEM5-RE6ok41hot-qnPtdW-WYdymFYKd89jWYVmCjAPoP-OcMxj2NOz_a-K9kKcNcpaM7SLw=w832-h470-rw",
         },
         {
           name: "Skooltym - School Management System (Android - Uganda)",
